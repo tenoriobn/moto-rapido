@@ -1,0 +1,54 @@
+[
+  {
+    "key": "home",
+    "href": "/dashboard",
+    "iconClass": "fa-solid fa-gauge",
+    "text": "Home"
+  },
+  {
+    "key": "pessoa",
+    "href": "/dashboard/gerenciar-pessoa",
+    "iconClass": "fa-solid fa-user",
+    "text": "Gerenciar Pessoa"
+  },
+  {
+    "key": "usuario",
+    "href": "/dashboard/gerenciar-usuario",
+    "iconClass": "fa-solid fa-user-shield",
+    "text": "Gerenciar Usuário"
+  },
+  {
+    "key": "manutencao",
+    "text": "Gerenciar Manutenção",
+    "iconClassCategory": "fas fa-cogs",
+    "subOptions": [
+      { 
+        "href": "/dashboard/manutencao-corretiva", 
+        "iconClass": "fa-solid fa-user", 
+        "text": "Manutenção Corretiva" 
+      },
+      { 
+        "href": "/dashboard/manutencao-programada", 
+        "iconClass": "fa-solid fa-desktop", 
+        "text": "Manutenção Programada" 
+      }
+    ]
+  },
+  {
+    "key": "veiculo",
+    "text": "Gerenciar Veículo",
+    "iconClassCategory": "fa-solid fa-car",
+    "subOptions": [
+      { 
+        "href": "/dashboard/cadastrar-veiculo", 
+        "iconClass": "fa-solid fa-car", 
+        "text": "Cadastrar Veículo" 
+      },
+      { 
+        "href": "/dashboard/cadastrar-modelo", 
+        "iconClass": "fa-solid fa-car-side", 
+        "text": "Cadastrar Modelo" 
+      }
+    ]
+  }
+]
